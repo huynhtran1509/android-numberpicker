@@ -2,17 +2,16 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <groupId>com.willowtreeapps</groupId>
+        <artifactId>wta-parent</artifactId>
+        <version>1.1</version>
     </parent>
 
     <groupId>net.simonvt</groupId>
     <artifactId>android-numberpicker-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>Android NumberPicker (Parent)</name>
     <description>A backport of the Android 4.2 NumberPicker.</description>
@@ -25,9 +24,8 @@
     </modules>
 
     <scm>
-        <url>http://github.com/SimonVT/android-numberpicker/</url>
-        <connection>scm:git:git://github.com/SimonVT/android-numberpicker.git</connection>
-        <developerConnection>scm:git:git@github.com:SimonVT/android-numberpicker.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:willowtreeapps/android-numberpicker.git</developerConnection>
+		<tag>HEAD</tag>
     </scm>
 
     <licenses>
